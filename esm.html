@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esmail Ahmedel Bedewi</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+    /* Reset & Fonts */
+    * {margin:0; padding:0; box-sizing:border-box; font-family: 'Poppins', sans-serif;}
+    body {background: linear-gradient(135deg, #1f1c2c, #928dab); color:#fff; line-height:1.6; scroll-behavior:smooth;}
+    
+    /* Header */
+    header {
+        padding:60px 20px;
+        text-align:center;
+        background: rgba(0,0,0,0.3);
+        backdrop-filter: blur(10px);
+    }
+    header h1 {
+        font-size:3.2em;
+        margin-bottom:10px;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 2px 2px 8px #000;
+        animation: fadeInDown 1s ease forwards;
+    }
+    header p {
+        font-size:1.3em;
+        color:#e0e0e0;
+        animation: fadeInUp 1s ease forwards;
+    }
+
+    /* Navigation */
+    nav {
+        display:flex;
+        justify-content:center;
+        gap:15px;
+        background: rgba(0,0,0,0.25);
+        backdrop-filter: blur(8px);
+        padding:15px 0;
+        position: sticky;
+        top:0;
+        z-index:1000;
+    }
+    nav a {
+        color:#fff;
+        padding:10px 20px;
+        text-decoration:none;
+        font-weight:600;
+        border-radius:8px;
+        transition:0.3s;
+    }
+    nav a:hover {
+        background:#fff;
+        color:#333;
+        transform: translateY(-3px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Sections */
+    section {
+        padding:80px 20px;
+        max-width:1100px;
+        margin:0 auto;
+    }
+    section h2 {
+        text-align:center;
+        font-size:2.8em;
+        margin-bottom:40px;
+        text-shadow: 2px 2px 8px #000;
+        animation: fadeIn 1.2s ease forwards;
+    }
+
+    /* Cards */
+    .card {
+        background: rgba(0,0,0,0.45);
+        padding:25px;
+        border-radius:20px;
+        text-align:center;
+        flex:1 1 300px;
+        transition: transform 0.4s, box-shadow 0.4s;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .card:hover {
+        transform: translateY(-8px) scale(1.05);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    }
+    .card img {
+        width:150px;
+        height:150px;
+        object-fit: cover;
+        border-radius:50%;
+        margin-bottom:15px;
+        border:3px solid #00ffcc;
+        transition: transform 0.4s;
+    }
+    .card img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Flex containers */
+    .about, .skills, .family {display:flex; flex-wrap:wrap; justify-content:space-around; gap:25px;}
+    .hobbies {display:flex; justify-content:center; gap:25px; flex-wrap:wrap;}
+
+    /* Skills bars */
+    .skills-bar {
+        height:28px;
+        background:#fff;
+        border-radius:15px;
+        margin-bottom:15px;
+        overflow:hidden;
+    }
+    .skills-bar div {
+        height:100%;
+        background:#00ffcc;
+        width:0%;
+        text-align:right;
+        padding-right:12px;
+        line-height:28px;
+        color:#000;
+        font-weight:bold;
+        border-radius:15px;
+        animation: fillSkill 1.5s forwards;
+    }
+
+    /* Hobbies */
+    .hobby {
+        background: rgba(255,255,255,0.15);
+        padding:18px 28px;
+        border-radius:12px;
+        font-weight:600;
+        cursor:pointer;
+        transition:0.3s;
+    }
+    .hobby:hover {
+        background:#00ffcc;
+        color:#000;
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    /* Footer */
+    footer {
+        text-align:center;
+        padding:30px 20px;
+        background: rgba(0,0,0,0.35);
+        backdrop-filter: blur(5px);
+    }
+    footer a {
+        color:#00ffcc;
+        margin:0 10px;
+        text-decoration:none;
+        font-weight:bold;
+        transition:0.3s;
+    }
+    footer a:hover {
+        color:#fff;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+        0% {opacity:0; transform: translateY(-30px);}
+        100% {opacity:1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+        0% {opacity:0; transform: translateY(30px);}
+        100% {opacity:1; transform: translateY(0);}
+    }
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @keyframes fillSkill {
+        0% {width:0%;}
+        100% {width: var(--skill-width);}
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Esmail Ahmedel Bedewi</h1>
+    <p>13 years old | Student at Lebawi International Academy | Robotics & Coding Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#family">Family</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+        <div class="card">
+            <img src="esmail.jpg" alt="Your Photo">
+            <h3>Esmail Ahmedel Bedewi</h3>
+            <p>I am a clever student passionate about robotics, Arduino, Python, HTML, CSS, and other programming languages. I love math, science, and football. I have proof of my academic performance and achievements.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="card">
+            <h3>Programming</h3>
+            <div class="skills-bar"><div style="--skill-width:90%; width:90%;">Python 90%</div></div>
+            <div class="skills-bar"><div style="--skill-width:80%; width:80%;">HTML/CSS 80%</div></div>
+            <div class="skills-bar"><div style="--skill-width:70%; width:70%;">Arduino 70%</div></div>
+        </div>
+        <div class="card">
+            <h3>Academics</h3>
+            <div class="skills-bar"><div style="--skill-width:95%; width:95%;">Math 95%</div></div>
+            <div class="skills-bar"><div style="--skill-width:90%; width:90%;">Science 90%</div></div>
+        </div>
+    </div>
+</section>
+
+<section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+    <div class="hobbies">
+        <div class="hobby">Football ⚽</div>
+        <div class="hobby">Robotics 🤖</div>
+        <div class="hobby">Coding 💻</div>
+        <div class="hobby">Math & Science 🧪📐</div>
+    </div>
+</section>
+
+<section id="family">
+    <h2>My Family</h2>
+    <div class="family">
+        <div class="card">
+            <img src="abu.jpg" alt="Older Brother">
+            <h3>Older Brother</h3>
+            <p>Second-year Computer Science student at University. The eldest of all siblings.</p>
+        </div>
+        <div class="card">
+            <img src="esmail.jpg" alt="Me">
+            <h3>Esmail</h3>
+            <p>The second child of the family. 13 years old, student at Lebawi International Academy.</p>
+        </div>
+        <div class="card">
+            <img src="hib.jpg" alt="Younger Sister">
+            <h3>Sister</h3>
+            <p>Grade 5 student, clever and sharp-minded.</p>
+        </div>
+        <div class="card">
+            <img src="moh.jpg" alt="Younger Brother">
+            <h3>Younger Brother</h3>
+            <p>Grade 2 student at Lebawi International Academy.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Esmail Ahmedel Bedewi. All rights reserved.</p>
+    <p>
+        <a href="https://t.me/alahukabir" target="_blank">Telegram</a> | 
+        <a href="tel:+2575737548">Phone</a>
+    </p>
+</footer>
+
+<script>
+// Smooth scroll
+document.querySelectorAll('nav a').forEach(link=>{
+    link.addEventListener('click', e=>{
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+    });
+});
+</script>
+
+</body>
+</html>
