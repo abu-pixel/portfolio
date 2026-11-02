@@ -475,6 +475,31 @@ img { max-width: 100%; display: block; }
 
 .cert-link:hover { text-decoration: underline; }
 
+/* ===== CERTS TOGGLE ===== */
+.certs-toggle-wrap {
+    max-width: var(--max-width);
+    margin: 24px auto 0;
+    text-align: center;
+}
+
+.certs-toggle {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    padding: 10px 24px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.certs-toggle:hover {
+    border-color: var(--accent);
+    background: rgba(99, 102, 241, 0.08);
+}
+
 /* ===== CONTACT ===== */
 .contact-grid {
     max-width: 700px;
