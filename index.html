@@ -43,7 +43,7 @@
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
                 <div class="hero-stats">
-                    <div class="stat"><span class="stat-num">5</span><span class="stat-label">Projects Built</span></div>
+                    <div class="stat"><span class="stat-num">6</span><span class="stat-label">Projects Built</span></div>
                     <div class="stat"><span class="stat-num">26</span><span class="stat-label">Certificates</span></div>
                     <div class="stat"><span class="stat-num">3</span><span class="stat-label">UI/UX Designs</span></div>
                 </div>
@@ -56,32 +56,54 @@
             <p class="section-subtitle">Projects I've built while studying and practicing development.</p>
             
             <div class="projects-grid">
-                <!-- Project 1: Multi-Language Dashboard -->
+                <!-- Project 1: Ledgerly -->
                 <article class="project-card">
-                    <div class="project-tags"><span>Web</span><span>Live</span></div>
-                    <h3 class="project-name">Multi-Language Dashboard</h3>
-                    <p class="project-desc">A dashboard that displays system information using 13 programming languages working together — HTML, CSS, JavaScript, Python, PHP, Ruby, PowerShell, C#, Batch, SQL, TypeScript, YAML, and Markdown.</p>
-                    <div class="project-meta"><span>Users: 7</span></div>
-                    <div class="project-tech">Python • JavaScript • PHP • Ruby • PowerShell • C# • SQL • TypeScript • Flask</div>
+                    <div class="project-tags"><span>Mobile</span><span>Full-Stack</span><span>Live</span></div>
+                    <h3 class="project-name">Ledgerly (Ledger Intelligence)</h3>
+                    <p class="project-desc">A mobile bookkeeping and cash-flow app for small business owners. Track income and expenses, manage invoices, view financial reports, and get AI bookkeeping guidance — all from your phone.</p>
+                    <div class="project-meta"><span>Users: 11</span></div>
+                    <div class="project-tech">React Native • Expo • TypeScript • Express • Clerk Auth • PostgreSQL • Drizzle ORM • Pollinations AI</div>
                     <div class="project-links">
-                        <a href="https://github.com/abu-pixel/multi-language-dashboard" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
-                        <a href="https://multi-language-dashboard.onrender.com/" target="_blank" rel="noopener" class="project-link">Live Demo ↗</a>
-                        <a href="https://youtu.be/HW6ay7d4EKg" target="_blank" rel="noopener" class="project-link">YouTube ↗</a>
+                        <a href="https://github.com/abu-pixel/Ledger-Intelligence" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+                        <a href="https://ledger-intelligence-sigma.vercel.app" target="_blank" rel="noopener" class="project-link">Live Demo ↗</a>
                     </div>
                     <details class="case-study">
                         <summary>Case Study</summary>
                         <div class="case-content">
                             <h5>Problem</h5>
-                            <p>I wanted to see how many different languages could work together in a single project — something that runs on Windows and shows real system data without needing a heavy framework.</p>
+                            <p>Small business owners in my area often track income and expenses in notebooks or spreadsheets. They lose time reconciling records and don't always know where their money is going.</p>
                             <h5>What I Built</h5>
-                            <p>A Flask backend that calls PowerShell for system info, PHP for timestamps, Ruby for logging, and a frontend that pulls it all together into a single dashboard.</p>
+                            <p>A React Native app backed by an Express server. Users sign up with Clerk, log transactions with optional receipts, create invoices, and view cash-flow charts. The AI assistant is proxied server-side to a free API, so no keys are exposed to the app, and only aggregate data (no client names or receipts) is sent.</p>
                             <h5>What I Learned</h5>
-                            <p>How to bridge languages through HTTP and files, and how to debug cross-language issues without a framework doing the work for me.</p>
+                            <p>How to structure a monorepo, how to protect AI API keys with a server-side proxy, and how privacy choices affect what you can safely build.</p>
                         </div>
                     </details>
                 </article>
 
-                <!-- Project 2: SecureVault -->
+                <!-- Project 2: CashPilot -->
+                <article class="project-card">
+                    <div class="project-tags"><span>Android</span><span>Business</span></div>
+                    <h3 class="project-name">CashPilot</h3>
+                    <p class="project-desc">An Android business management app for small businesses — connects cash flow, inventory, and customer debt in one ledger. Built with Kotlin, Jetpack Compose, and Room.</p>
+                    <div class="project-meta"><span>Users: 8</span></div>
+                    <div class="project-tech">Kotlin • Jetpack Compose • Material 3 • Room • MVVM • Kotlin Flows • Repository Pattern</div>
+                    <div class="project-links">
+                        <a href="https://github.com/abu-pixel/CashPilot" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+                    </div>
+                    <details class="case-study">
+                        <summary>Case Study</summary>
+                        <div class="case-content">
+                            <h5>Problem</h5>
+                            <p>Bookkeeping apps usually treat financial records, inventory, and customer debt as separate things. That makes it hard for a business owner to see the real picture.</p>
+                            <h5>What I Built</h5>
+                            <p>A native Android app with a connected ledger. When a credit sale happens, it records the sale, updates the customer's debt, and adjusts inventory — all in one Room database transaction, so nothing gets out of sync.</p>
+                            <h5>What I Learned</h5>
+                            <p>How to use Room transactions for consistency, how to structure an MVVM app with repositories, and why data integrity matters more than features in business software.</p>
+                        </div>
+                    </details>
+                </article>
+
+                <!-- Project 3: SecureVault -->
                 <article class="project-card">
                     <div class="project-tags"><span>Android</span><span>Play Store</span></div>
                     <h3 class="project-name">SecureVault</h3>
@@ -105,7 +127,7 @@
                     </details>
                 </article>
 
-                <!-- Project 3: Secure Password Manager -->
+                <!-- Project 4: Secure Password Manager -->
                 <article class="project-card">
                     <div class="project-tags"><span>Web</span><span>Live</span></div>
                     <h3 class="project-name">Secure Password Manager</h3>
@@ -130,7 +152,7 @@
                     </details>
                 </article>
 
-                <!-- Project 4: React WebOS -->
+                <!-- Project 5: React WebOS -->
                 <article class="project-card">
                     <div class="project-tags"><span>React</span><span>Live</span></div>
                     <h3 class="project-name">React WebOS</h3>
@@ -155,7 +177,7 @@
                     </details>
                 </article>
 
-                <!-- Project 5: Smart File Organizer -->
+                <!-- Project 6: Smart File Organizer -->
                 <article class="project-card">
                     <div class="project-tags"><span>Automation</span><span>Live</span></div>
                     <h3 class="project-name">Smart File Organizer</h3>
@@ -257,14 +279,14 @@
             <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
             <p class="section-subtitle">Technologies I've used in projects and coursework.</p>
             <div class="skills-grid">
-                <div class="skill-category"><h4>Most Used</h4><p>JavaScript, Python, HTML, CSS, Git, GitHub</p></div>
-                <div class="skill-category"><h4>Frontend</h4><p>React, Next.js, Tailwind CSS, Alpine.js</p></div>
+                <div class="skill-category"><h4>Most Used</h4><p>JavaScript, TypeScript, Python, Kotlin, HTML, CSS, Git, GitHub</p></div>
+                <div class="skill-category"><h4>Frontend</h4><p>React, React Native, Expo, Next.js, Tailwind CSS, Alpine.js</p></div>
                 <div class="skill-category"><h4>Backend</h4><p>Node.js, Express.js, Flask, REST APIs</p></div>
-                <div class="skill-category"><h4>Databases</h4><p>PostgreSQL, MySQL, MongoDB, SQLite</p></div>
-                <div class="skill-category"><h4>Mobile</h4><p>Kotlin, Android, Jetpack Compose, Flutter</p></div>
-                <div class="skill-category"><h4>Other Languages</h4><p>TypeScript, Java, C++, PHP, SQL</p></div>
-                <div class="skill-category"><h4>Tools</h4><p>Figma, Docker, VS Code, Postman, Power BI</p></div>
-                <div class="skill-category"><h4>Cloud</h4><p>Vercel, Render, AWS, Microsoft Azure</p></div>
+                <div class="skill-category"><h4>Databases</h4><p>PostgreSQL, MySQL, MongoDB, SQLite, Room, Drizzle ORM</p></div>
+                <div class="skill-category"><h4>Mobile</h4><p>Kotlin, Android, Jetpack Compose, React Native, Flutter</p></div>
+                <div class="skill-category"><h4>Other Languages</h4><p>Java, C++, PHP, SQL</p></div>
+                <div class="skill-category"><h4>Tools</h4><p>Figma, Docker, VS Code, Postman, Power BI, Clerk</p></div>
+                <div class="skill-category"><h4>Cloud</h4><p>Vercel, Render, Netlify, AWS, Microsoft Azure</p></div>
             </div>
         </section>
 
