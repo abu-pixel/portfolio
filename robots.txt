@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.abubeker-ahmedel.com/sitemap.xml
