@@ -1,1 +1,1 @@
-The favicon uses the site's AA monogram: a dark rounded square, a diagonal teal rule and an orange accent dot.
+The favicon is a code-mark icon (`</>`) on a dark rounded square, with teal brackets and an orange slash.
