@@ -122,8 +122,8 @@
     list.forEach(function (cert) { certsGrid.appendChild(certCard(cert)); });
     if (certsToggle) {
       certsToggle.textContent = showingAll
-        ? 'Show only the 6 most relevant'
-        : 'Show all ' + certificates.length + ' certificates';
+        ? 'Show only the most relevant'
+        : 'Show all certificates';
       certsToggle.setAttribute('aria-expanded', String(showingAll));
     }
     certsGrid.setAttribute('aria-busy', 'false');

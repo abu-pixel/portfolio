@@ -255,8 +255,7 @@ ul{list-style:none}
 .hero-stats{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px;max-width:560px}
 .stat{padding-right:32px;margin-right:32px;border-right:1px solid var(--line)}
 .stat:last-child{border-right:0;margin-right:0;padding-right:0}
-.stat-num{display:block;font-family:var(--font-display);font-size:1.7rem;font-weight:700;line-height:1;color:var(--ink)}
-.stat-label{display:block;font-family:var(--font-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.stat-label{display:block;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
 
 .id-card{
   position:relative;
@@ -529,8 +528,7 @@ ul{list-style:none}
   .hero-cta .text-link{justify-content:center;margin:8px 0 0}
   .hero-stats{gap:0}
   .stat{padding-right:18px;margin-right:18px}
-  .stat-num{font-size:1.4rem}
-  .stat-label{font-size:.58rem}
+  .stat-label{font-size:.62rem}
   .focus-grid,.skills-grid,.certs-grid,.fact-grid,.cv-cols{grid-template-columns:1fr}
   .section{padding:56px 0}
   .positioning{padding:24px}
