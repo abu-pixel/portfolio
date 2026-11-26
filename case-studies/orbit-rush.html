@@ -75,6 +75,7 @@
         <div class="page-actions">
           <a class="btn btn-primary" href="https://orbit-rush-fawn.vercel.app" target="_blank" rel="noopener noreferrer">Play the live game ↗</a>
           <a class="btn btn-ghost" href="https://github.com/abu-pixel/orbit-rush" target="_blank" rel="noopener noreferrer">Read the source code ↗</a>
+          <a class="btn btn-quiet" href="https://youtu.be/NBgX52RqQgE?si=98LueQsNh9yoIZMu" target="_blank" rel="noopener noreferrer">Watch the walkthrough ↗</a>
           <a class="btn btn-quiet" href="../index.html#work">Back to all projects</a>
         </div>
         <dl class="fact-grid">
@@ -160,16 +161,18 @@
       </section>
 
       <section class="case-section" aria-labelledby="s9"><h2 id="s9"><span>09</span>Screenshots of the application</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/></svg>
-          <strong>Screenshot slot — not published yet</strong>
-          <p>No real screenshot of the game is in this repository. A capture of the web canvas and the mobile screen would belong here; until then, use the live demo to see the actual interface.</p>
+        <div class="screenshot-grid">
+          <figure class="shot"><a href="../screenshots/orbit-rush/01.png" target="_blank" rel="noopener noreferrer"><img src="../screenshots/orbit-rush/01.png" alt="Orbit Rush screenshot 1" loading="lazy"></a><figcaption>Screen 01</figcaption></figure>
+          <figure class="shot"><a href="../screenshots/orbit-rush/02.png" target="_blank" rel="noopener noreferrer"><img src="../screenshots/orbit-rush/02.png" alt="Orbit Rush screenshot 2" loading="lazy"></a><figcaption>Screen 02</figcaption></figure>
+          <figure class="shot"><a href="../screenshots/orbit-rush/03.png" target="_blank" rel="noopener noreferrer"><img src="../screenshots/orbit-rush/03.png" alt="Orbit Rush screenshot 3" loading="lazy"></a><figcaption>Screen 03</figcaption></figure>
+          <figure class="shot"><a href="../screenshots/orbit-rush/04.png" target="_blank" rel="noopener noreferrer"><img src="../screenshots/orbit-rush/04.png" alt="Orbit Rush screenshot 4" loading="lazy"></a><figcaption>Screen 04</figcaption></figure>
         </div>
       </section>
 
       <section class="case-section" aria-labelledby="s10"><h2 id="s10"><span>10</span>Live demonstration</h2>
-        <p>The browser game is hosted on Vercel and opens directly. No account or registration stands between this portfolio and playing it.</p>
+        <p>The browser game is hosted on Vercel and opens directly. No account or registration stands between this portfolio and playing it or watching the walkthrough.</p>
         <a class="text-link" href="https://orbit-rush-fawn.vercel.app" target="_blank" rel="noopener noreferrer">Play Orbit Rush in the browser ↗</a>
+        <a class="text-link" style="margin-left:24px" href="https://youtu.be/NBgX52RqQgE?si=98LueQsNh9yoIZMu" target="_blank" rel="noopener noreferrer">Watch the walkthrough ↗</a>
       </section>
 
       <section class="case-section" aria-labelledby="s11"><h2 id="s11"><span>11</span>Source-code repository</h2>
@@ -218,7 +221,7 @@
       <section class="case-section" aria-labelledby="s17"><h2 id="s17"><span>17</span>Known limitations</h2>
         <ul>
           <li>No published database schema, test report or performance measurements.</li>
-          <li>No published screenshots; the live demo is the only visual reference.</li>
+          </li>
           <li>No authentication or account features described.</li>
           <li>Clients depend on a code-generation step, so the OpenAPI document must stay current.</li>
         </ul>
@@ -230,7 +233,7 @@
           <li>Publish the schema and a rendered API reference from the OpenAPI document.</li>
           <li>Record frame-rate and input-latency measurements on both client types.</li>
           <li>Add automated tests for the shared engine's core rules.</li>
-          <li>Capture real screenshots of the web and mobile builds.</li>
+          <li>Document the generated-client build step for new contributors.</li>
         </ul>
       </section>
 
