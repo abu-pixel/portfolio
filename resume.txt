@@ -9,6 +9,9 @@ LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
 Portfolio: https://www.abubeker-ahmedel.com/
 CV page: https://www.abubeker-ahmedel.com/cv.html
 Plain-text CV: https://www.abubeker-ahmedel.com/resume.txt
+Word resume: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.docx
+PDF resume: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.pdf
+JSON resume: https://www.abubeker-ahmedel.com/resume.json
 
 PROFESSIONAL SUMMARY
 Junior full-stack developer who takes problems from rough idea to working product across web, Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships, including remote teams.

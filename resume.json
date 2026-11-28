@@ -1,0 +1,112 @@
+{
+  "$schema": "https://jsonresume.org/schema/",
+  "basics": {
+    "name": "Abubeker Ahmedel",
+    "label": "Junior Full-Stack Developer - Web and Android",
+    "email": "abubeker.ahmedel.dev@gmail.com",
+    "phone": "+251 983 074 598",
+    "website": "https://www.abubeker-ahmedel.com/",
+    "summary": "Junior full-stack developer who takes problems from rough idea to working product across web, Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships, including remote teams.",
+    "location": {
+      "address": "Addis Ababa",
+      "region": "Addis Ababa",
+      "countryCode": "ET"
+    },
+    "profiles": [
+      { "network": "GitHub", "username": "abu-pixel", "url": "https://github.com/abu-pixel" },
+      { "network": "LinkedIn", "username": "abubeker-ahmedel-074bb3330", "url": "https://www.linkedin.com/in/abubeker-ahmedel-074bb3330" },
+      { "network": "Portfolio", "username": "abubeker-ahmedel.com", "url": "https://www.abubeker-ahmedel.com/" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Self-directed software projects",
+      "position": "Solo developer",
+      "url": "https://www.abubeker-ahmedel.com/",
+      "summary": "Designed and built public web, mobile and backend projects as a personal portfolio, including case studies, automated test workflows and published performance measurements.",
+      "highlights": [
+        "Ledgerly: React Native and Express bookkeeping app with Clerk authentication, PostgreSQL, Drizzle ORM and a server-side AI privacy proxy.",
+        "CashPilot: native Android ledger using Kotlin, Compose, Room and atomic credit-sale transactions.",
+        "Orbit Rush: shared TypeScript game engine for web and mobile with generated OpenAPI clients.",
+        "SecureVault: offline Android password manager with encrypted Room storage, Android Keystore and no internet permission.",
+        "React WebOS: browser desktop environment with draggable windows, focus and layering."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "St. Mary's University",
+      "area": "Computer Science",
+      "location": "Addis Ababa, Ethiopia",
+      "summary": "Current studies with coursework and self-directed projects across programming, databases, operating systems and web development."
+    }
+  ],
+  "skills": [
+    { "name": "Languages", "keywords": ["JavaScript", "TypeScript", "Python", "Kotlin", "Java", "C++", "PHP", "SQL", "HTML", "CSS"] },
+    { "name": "Frontend", "keywords": ["React", "React Native", "Expo", "Next.js", "Tailwind CSS", "Alpine.js"] },
+    { "name": "Backend", "keywords": ["Node.js", "Express.js", "Flask", "REST APIs"] },
+    { "name": "Data", "keywords": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Room", "Drizzle ORM"] },
+    { "name": "Mobile", "keywords": ["Kotlin", "Android", "Jetpack Compose", "React Native", "Expo", "Flutter"] },
+    { "name": "Tools and cloud", "keywords": ["Figma", "Docker", "Git", "GitHub", "Postman", "Power BI", "Clerk", "Vercel", "Render", "Netlify", "AWS", "Microsoft Azure"] }
+  ],
+  "certificates": [
+    { "name": "AWS", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certe43332a6f12d57506a9f131f3af1b230" },
+    { "name": "Microsoft Azure Fundamentals (AZ-900)", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert8c2d5a089b684789426fbd6758d75f69" },
+    { "name": "Operating Systems & Systems Programming", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certaf68eb6d5d9cf0aeacbb709c04f9dfd7" },
+    { "name": "Complete MongoDB Tutorial", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certf2025318a03c36686bf1e00ea306ef64" },
+    { "name": "Java Intermediate", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-KSZLZ65W/image/png?t=639159123981254640" },
+    { "name": "Introduction to C++", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-WTJJGRZU/image/png?t=639159148717828710" },
+    { "name": "Copywriting", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certefeeefe951bce78c94859578e62c4cb3" },
+    { "name": "Photoshop Full Course", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certbf9567add0eaa86be3ae54aaf81dead3" },
+    { "name": "Supply Chain Management", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert290aca559204b8995f417b70fd9079a9" },
+    { "name": "Mobile Phone Repair", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certeb2cc46da0e410dba727b216ff78c374" },
+    { "name": "Call Center Customer Service", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certed5b2308cc192a3ea753ccca2f14e86e" },
+    { "name": "Unity Game Development", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert4c0a5c059bd75e3a37617fff037a07b0" },
+    { "name": "Kali Linux: Beginner to Advanced", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert71db20d6e85cb30af13f1ad3dc30a448" },
+    { "name": "Flutter 3.0 Masterclass", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certe75fed4945204774605a81dc7be49985" },
+    { "name": "Power BI Full Course", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/certbcde8658314a742325e78ea71b60c402" },
+    { "name": "WordPress - Basic to Advanced", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert0b1807bdd39eb411b8cf966040dc1f8b" },
+    { "name": "Godot 4.3 2D Farming Game Tutorial", "issuer": "Cursa", "url": "https://cursa.app/en/my-certificate/cert690d60fbdcce9083938d1a3534038f46" },
+    { "name": "Generative AI in Practice", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-VSIHCWNE/image/png?t=638857558880578750" },
+    { "name": "Data Analytics with AI", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-LLJ09CPB/image/png?t=638857607290247740" },
+    { "name": "AI in Data Analysis", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-VMY8WJIU/image/png?t=638859235383502650" },
+    { "name": "Ethical AI Foundation", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-X37FRQOK/image/png?t=638875139147878210" },
+    { "name": "Prompt Engineering", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-YPJABPLK/image/png?t=638884669206338610" },
+    { "name": "AI-Powered A/B Testing", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-I12MVX8I/image/png?t=638885402776124520" },
+    { "name": "Introduction to LLMs", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-WSTEK300/image/png?t=638886856120284580" },
+    { "name": "Machine Learning for Beginners", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-SUAUAFME/image/png?t=638888644299273520" },
+    { "name": "Research with AI", "issuer": "SoloLearn", "url": "https://api2.sololearn.com/v2/certificates/CC-DJOX2I8T/image/png?t=638891228138220140" }
+  ],
+  "projects": [
+    {
+      "name": "Ledgerly (Ledger Intelligence)",
+      "description": "Mobile bookkeeping and cash-flow app with transactions, invoices, reports and AI guidance behind a server-side privacy proxy.",
+      "url": "https://www.abubeker-ahmedel.com/case-studies/ledgerly.html",
+      "keywords": ["React Native", "Expo", "TypeScript", "Express", "Clerk", "PostgreSQL", "Drizzle ORM", "Pollinations AI"]
+    },
+    {
+      "name": "CashPilot",
+      "description": "Native Android ledger that records credit sales, customer debt and inventory changes in a single Room transaction.",
+      "url": "https://www.abubeker-ahmedel.com/case-studies/cashpilot.html",
+      "keywords": ["Kotlin", "Jetpack Compose", "Room", "MVVM", "Kotlin Flows"]
+    },
+    {
+      "name": "Orbit Rush",
+      "description": "Arcade game with one shared engine for web and mobile in a pnpm monorepo with generated API types.",
+      "url": "https://www.abubeker-ahmedel.com/case-studies/orbit-rush.html",
+      "keywords": ["TypeScript", "React 19", "Expo", "Express", "OpenAPI", "Orval"]
+    },
+    {
+      "name": "SecureVault",
+      "description": "Offline Android password manager with encrypted local storage, Android Keystore and biometric unlock. No internet permission.",
+      "url": "https://www.abubeker-ahmedel.com/case-studies/securevault.html",
+      "keywords": ["Kotlin", "Jetpack Compose", "Room", "AndroidX Security"]
+    },
+    {
+      "name": "React WebOS",
+      "description": "Browser desktop environment with draggable windows, a dock and small apps.",
+      "url": "https://www.abubeker-ahmedel.com/case-studies/react-webos.html",
+      "keywords": ["React", "JavaScript", "CSS"]
+    }
+  ]
+}

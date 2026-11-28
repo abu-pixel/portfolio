@@ -15,6 +15,9 @@ LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
 Portfolio: https://www.abubeker-ahmedel.com/
 CV page: https://www.abubeker-ahmedel.com/cv.html
 Plain-text resume: https://www.abubeker-ahmedel.com/resume.txt
+ATS Word document: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.docx
+ATS text PDF: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.pdf
+Structured JSON resume: https://www.abubeker-ahmedel.com/resume.json
 Contact page: https://www.abubeker-ahmedel.com/contact.html
 
 Professional summary: Junior full-stack developer who takes problems from rough idea to working product across web, Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships, including remote teams.
@@ -134,5 +137,10 @@ Contact: https://www.abubeker-ahmedel.com/contact.html
 - Sitemap: https://www.abubeker-ahmedel.com/sitemap.xml
 - Robots: https://www.abubeker-ahmedel.com/robots.txt
 - Short AI index: https://www.abubeker-ahmedel.com/llms.txt
+- Alternate short AI index: https://www.abubeker-ahmedel.com/.well-known/llms.txt
+- AI access notes: https://www.abubeker-ahmedel.com/ai.txt
+- Structured JSON resume: https://www.abubeker-ahmedel.com/resume.json
 - All pages are static files served over HTTPS under the canonical www domain.
+- The DOCX and PDF resumes are generated from the same source text as resume.txt and use standard section headings such as Professional Summary, Education, Technical Skills, Selected Projects, Certificates and Availability.
 - Avoid guessing missing metrics: the case studies distinguish published results from unpublished ones.
+- All resume formats should be treated as derived views of the same facts. If a wording difference appears, prefer the canonical case study pages for project claims and resume.txt for contact details.

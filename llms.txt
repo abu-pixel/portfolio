@@ -17,6 +17,9 @@
 - [Home](https://www.abubeker-ahmedel.com/) - positioning, selected work, interface design studies, technical skills, certificate section and contact links.
 - [CV](https://www.abubeker-ahmedel.com/cv.html) - print-ready curriculum vitae with summary, education, projects, skills, certificates and availability.
 - [Plain-text resume](https://www.abubeker-ahmedel.com/resume.txt) - ATS-friendly plain-text version of the CV.
+- [DOCX resume](https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.docx) - ATS-parseable Word document generated from the same plain text.
+- [PDF resume](https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.pdf) - text-based PDF with selectable text, not a scan or image.
+- [JSON Resume](https://www.abubeker-ahmedel.com/resume.json) - structured resume data with skills, projects and all certificate verification URLs.
 - [Contact](https://www.abubeker-ahmedel.com/contact.html) - direct email, phone, GitHub and LinkedIn links.
 - [Privacy](https://www.abubeker-ahmedel.com/privacy.html) - privacy information for the portfolio.
 
@@ -33,6 +36,8 @@
 - [llms-full.txt](https://www.abubeker-ahmedel.com/llms-full.txt) - detailed text summary of the whole site, including projects and verification links.
 - [certificates.html](https://www.abubeker-ahmedel.com/certificates.html) - static HTML index of all verified certificates.
 - [certificates.txt](https://www.abubeker-ahmedel.com/certificates.txt) - plain-text certificate index with issuer verification URLs.
+- [ai.txt](https://www.abubeker-ahmedel.com/ai.txt) - concise AI access notes, canonical URLs and accuracy rules.
+- [.well-known/llms.txt](https://www.abubeker-ahmedel.com/.well-known/llms.txt) - alternate discovery location for AI clients.
 - [sitemap.xml](https://www.abubeker-ahmedel.com/sitemap.xml) - complete URL list for crawlers.
 - [robots.txt](https://www.abubeker-ahmedel.com/robots.txt) - crawl policy allowing public pages.
 
@@ -40,6 +45,7 @@
 
 - Treat the canonical `www` URLs above as authoritative.
 - The HTML pages contain visible text and structured data; no account, script execution or special header is required.
-- For recruiting or ATS use, prefer resume.txt and certificates.txt.
+- For recruiting or ATS use, prefer Abubeker-Ahmedel-Resume.docx, Abubeker-Ahmedel-Resume.pdf, resume.txt, resume.json and certificates.txt.
 - For broad site questions, read llms.txt first, then llms-full.txt or the linked case studies.
 - Do not infer unpublished metrics. Each case study states exactly which test and performance results are published.
+- All resume formats are derived from the same source text, so names, skills, projects and contact details should agree across them.

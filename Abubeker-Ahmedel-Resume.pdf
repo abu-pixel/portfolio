@@ -1,0 +1,255 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2935 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+54 738 Td
+(ABUBAKER AHMED EL) Tj
+T*
+(Junior Full-Stack Developer - Web and Android) Tj
+T*
+(Addis Ababa, Ethiopia) Tj
+T*
+() Tj
+T*
+(Email: abubeker.ahmedel.dev@gmail.com) Tj
+T*
+(Phone: +251 983 074 598) Tj
+T*
+(GitHub: https://github.com/abu-pixel) Tj
+T*
+(LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330) Tj
+T*
+(Portfolio: https://www.abubeker-ahmedel.com/) Tj
+T*
+(CV page: https://www.abubeker-ahmedel.com/cv.html) Tj
+T*
+(Plain-text CV: https://www.abubeker-ahmedel.com/resume.txt) Tj
+T*
+() Tj
+T*
+(PROFESSIONAL SUMMARY) Tj
+T*
+(Junior full-stack developer who takes problems from rough idea to working product across web,) Tj
+T*
+(Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer) Tj
+T*
+(Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships,) Tj
+T*
+(including remote teams.) Tj
+T*
+() Tj
+T*
+(EDUCATION) Tj
+T*
+(Computer Science - St. Mary's University) Tj
+T*
+(Addis Ababa, Ethiopia - Current studies) Tj
+T*
+(Coursework and self-directed projects across programming, databases, operating systems and web) Tj
+T*
+(development.) Tj
+T*
+() Tj
+T*
+(TECHNICAL SKILLS) Tj
+T*
+(Languages: JavaScript, TypeScript, Python, Kotlin, Java, C++, PHP, SQL) Tj
+T*
+(Frontend: React, React Native, Expo, Next.js, Tailwind CSS, Alpine.js, HTML, CSS) Tj
+T*
+(Backend: Node.js, Express.js, Flask, REST APIs) Tj
+T*
+(Data: PostgreSQL, MySQL, MongoDB, SQLite, Room, Drizzle ORM) Tj
+T*
+(Mobile: Kotlin, Android, Jetpack Compose, Flutter) Tj
+T*
+(Tools and cloud: Figma, Docker, Git, GitHub, Postman, Power BI, Clerk, Vercel, Render,) Tj
+T*
+(Netlify, AWS, Microsoft Azure) Tj
+T*
+() Tj
+T*
+(SELECTED PROJECTS) Tj
+T*
+(Ledgerly \(Ledger Intelligence\)) Tj
+T*
+(React Native, Expo, TypeScript, Express, Clerk, PostgreSQL, Drizzle ORM) Tj
+T*
+(Mobile bookkeeping and cash-flow app for small business owners. Transactions, invoices,) Tj
+T*
+(reports and AI guidance behind a server-side privacy proxy. CI run #4 passed typecheck, full) Tj
+T*
+(build, health check and AI status check; health endpoint averaged 1 ms over 20 requests.) Tj
+T*
+(Case study: https://www.abubeker-ahmedel.com/case-studies/ledgerly.html) Tj
+T*
+() Tj
+T*
+(CashPilot) Tj
+T*
+(Kotlin, Jetpack Compose, Room, MVVM, Kotlin Flows) Tj
+T*
+(Native Android ledger that records credit sales, customer debt and inventory changes in a) Tj
+T*
+(single Room transaction. CI run passed 16 unit tests with 0 failures, 0 errors and 0 skipped) Tj
+T*
+(in 12.97 seconds, and published JVM benchmarks for analytics and database operations.) Tj
+T*
+(Case study: https://www.abubeker-ahmedel.com/case-studies/cashpilot.html) Tj
+T*
+() Tj
+T*
+(Orbit Rush) Tj
+T*
+(TypeScript, React 19, Expo, Express, OpenAPI, Orval) Tj
+T*
+(Arcade game with one shared engine for web and mobile in a pnpm monorepo with generated API) Tj
+T*
+(types. CI run passed 18 tests with 0 failures and published engine benchmarks for web and) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2356 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+54 738 Td
+(mobile clients.) Tj
+T*
+(Case study: https://www.abubeker-ahmedel.com/case-studies/orbit-rush.html) Tj
+T*
+() Tj
+T*
+(SecureVault) Tj
+T*
+(Kotlin, Jetpack Compose, Room, AndroidX Security) Tj
+T*
+(Offline Android password manager with encrypted local storage, Android Keystore and biometric) Tj
+T*
+(unlock. No internet permission. A two-job CI workflow is configured; the published run failed) Tj
+T*
+(before producing test XML or benchmark artifacts, so no pass rate is claimed.) Tj
+T*
+(Case study: https://www.abubeker-ahmedel.com/case-studies/securevault.html) Tj
+T*
+() Tj
+T*
+(React WebOS) Tj
+T*
+(React, JavaScript, CSS) Tj
+T*
+(Browser desktop environment with draggable windows, a dock and small apps. Published GitHub) Tj
+T*
+(Pages build and deployment runs passed; no interaction-test or runtime-benchmark suite is) Tj
+T*
+(published.) Tj
+T*
+(Case study: https://www.abubeker-ahmedel.com/case-studies/react-webos.html) Tj
+T*
+() Tj
+T*
+(CERTIFICATES) Tj
+T*
+(AWS - Cursa) Tj
+T*
+(Microsoft Azure Fundamentals \(AZ-900\) - Cursa) Tj
+T*
+(Operating Systems and Systems Programming - Cursa) Tj
+T*
+(Complete MongoDB Tutorial - Cursa) Tj
+T*
+(Java Intermediate - SoloLearn) Tj
+T*
+(Introduction to C++ - SoloLearn) Tj
+T*
+(Copywriting - Cursa) Tj
+T*
+(Photoshop Full Course - Cursa) Tj
+T*
+(Supply Chain Management - Cursa) Tj
+T*
+(Mobile Phone Repair - Cursa) Tj
+T*
+(Call Center Customer Service - Cursa) Tj
+T*
+(Unity Game Development - Cursa) Tj
+T*
+(Kali Linux: Beginner to Advanced - Cursa) Tj
+T*
+(Flutter 3.0 Masterclass - Cursa) Tj
+T*
+(Power BI Full Course - Cursa) Tj
+T*
+(WordPress: Basic to Advanced - Cursa) Tj
+T*
+(Godot 4.3 2D Farming Game Tutorial - Cursa) Tj
+T*
+(Generative AI in Practice - SoloLearn) Tj
+T*
+(Data Analytics with AI - SoloLearn) Tj
+T*
+(AI in Data Analysis - SoloLearn) Tj
+T*
+(Ethical AI Foundation - SoloLearn) Tj
+T*
+(Prompt Engineering - SoloLearn) Tj
+T*
+(AI-Powered A/B Testing - SoloLearn) Tj
+T*
+(Introduction to LLMs - SoloLearn) Tj
+T*
+(Machine Learning for Beginners - SoloLearn) Tj
+T*
+(Research with AI - SoloLearn) Tj
+T*
+(Full certificate list with verification links: https://www.abubeker-) Tj
+T*
+(ahmedel.com/certificates.txt) Tj
+T*
+() Tj
+T*
+(AVAILABILITY) Tj
+T*
+(Available for junior full-stack, mobile and internship opportunities.) Tj
+T*
+(Contact: https://www.abubeker-ahmedel.com/contact.html) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+0000003303 00000 n 
+0000003429 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5836
+%%EOF

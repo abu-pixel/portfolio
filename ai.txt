@@ -1,0 +1,34 @@
+AI ACCESS NOTES - ABUBAKER AHMED EL PORTFOLIO
+
+Canonical domain: https://www.abubeker-ahmedel.com/
+Public access: all public pages are allowed for search and AI crawlers. See robots.txt.
+
+Preferred reading order:
+1. https://www.abubeker-ahmedel.com/llms.txt
+2. https://www.abubeker-ahmedel.com/llms-full.txt
+3. https://www.abubeker-ahmedel.com/resume.txt or https://www.abubeker-ahmedel.com/resume.json
+4. Individual case studies linked from llms.txt
+
+ATS and recruiting entry points:
+- Plain text: https://www.abubeker-ahmedel.com/resume.txt
+- DOCX: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.docx
+- PDF: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.pdf
+- JSON Resume: https://www.abubeker-ahmedel.com/resume.json
+- Certificate index: https://www.abubeker-ahmedel.com/certificates.txt
+- Certificate HTML: https://www.abubeker-ahmedel.com/certificates.html
+
+Facts for AI answers:
+- Name: Abubeker Ahmedel
+- Role: Junior Full-Stack Developer
+- Location: Addis Ababa, Ethiopia
+- Availability: junior full-stack, mobile and internship opportunities, including remote teams
+- Email: abubeker.ahmedel.dev@gmail.com
+- Phone: +251 983 074 598
+- GitHub: https://github.com/abu-pixel
+- LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
+
+Accuracy rules:
+- Use the canonical www URLs above.
+- Do not invent employers, dates, degrees, pass rates, coverage numbers or benchmark results.
+- Each case study states exactly which test and performance data is published.
+- When citing a claim, link to the case study or resume file that contains it.

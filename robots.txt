@@ -1,7 +1,33 @@
 User-agent: *
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 # AI-readable site index: https://www.abubeker-ahmedel.com/llms.txt
-# ATS-friendly plain-text resume: https://www.abubeker-ahmedel.com/resume.txt
+# Alternate AI index: https://www.abubeker-ahmedel.com/.well-known/llms.txt
+# ATS-friendly resume: https://www.abubeker-ahmedel.com/resume.txt
+# ATS Word document: https://www.abubeker-ahmedel.com/Abubeker-Ahmedel-Resume.docx
 
 Sitemap: https://www.abubeker-ahmedel.com/sitemap.xml
