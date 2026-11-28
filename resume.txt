@@ -1,0 +1,86 @@
+ABUBAKER AHMED EL
+Junior Full-Stack Developer - Web and Android
+Addis Ababa, Ethiopia
+
+Email: abubeker.ahmedel.dev@gmail.com
+Phone: +251 983 074 598
+GitHub: https://github.com/abu-pixel
+LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
+Portfolio: https://www.abubeker-ahmedel.com/
+CV page: https://www.abubeker-ahmedel.com/cv.html
+Plain-text CV: https://www.abubeker-ahmedel.com/resume.txt
+
+PROFESSIONAL SUMMARY
+Junior full-stack developer who takes problems from rough idea to working product across web, Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships, including remote teams.
+
+EDUCATION
+Computer Science - St. Mary's University
+Addis Ababa, Ethiopia - Current studies
+Coursework and self-directed projects across programming, databases, operating systems and web development.
+
+TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Kotlin, Java, C++, PHP, SQL
+Frontend: React, React Native, Expo, Next.js, Tailwind CSS, Alpine.js, HTML, CSS
+Backend: Node.js, Express.js, Flask, REST APIs
+Data: PostgreSQL, MySQL, MongoDB, SQLite, Room, Drizzle ORM
+Mobile: Kotlin, Android, Jetpack Compose, Flutter
+Tools and cloud: Figma, Docker, Git, GitHub, Postman, Power BI, Clerk, Vercel, Render, Netlify, AWS, Microsoft Azure
+
+SELECTED PROJECTS
+Ledgerly (Ledger Intelligence)
+React Native, Expo, TypeScript, Express, Clerk, PostgreSQL, Drizzle ORM
+Mobile bookkeeping and cash-flow app for small business owners. Transactions, invoices, reports and AI guidance behind a server-side privacy proxy. CI run #4 passed typecheck, full build, health check and AI status check; health endpoint averaged 1 ms over 20 requests.
+Case study: https://www.abubeker-ahmedel.com/case-studies/ledgerly.html
+
+CashPilot
+Kotlin, Jetpack Compose, Room, MVVM, Kotlin Flows
+Native Android ledger that records credit sales, customer debt and inventory changes in a single Room transaction. CI run passed 16 unit tests with 0 failures, 0 errors and 0 skipped in 12.97 seconds, and published JVM benchmarks for analytics and database operations.
+Case study: https://www.abubeker-ahmedel.com/case-studies/cashpilot.html
+
+Orbit Rush
+TypeScript, React 19, Expo, Express, OpenAPI, Orval
+Arcade game with one shared engine for web and mobile in a pnpm monorepo with generated API types. CI run passed 18 tests with 0 failures and published engine benchmarks for web and mobile clients.
+Case study: https://www.abubeker-ahmedel.com/case-studies/orbit-rush.html
+
+SecureVault
+Kotlin, Jetpack Compose, Room, AndroidX Security
+Offline Android password manager with encrypted local storage, Android Keystore and biometric unlock. No internet permission. A two-job CI workflow is configured; the published run failed before producing test XML or benchmark artifacts, so no pass rate is claimed.
+Case study: https://www.abubeker-ahmedel.com/case-studies/securevault.html
+
+React WebOS
+React, JavaScript, CSS
+Browser desktop environment with draggable windows, a dock and small apps. Published GitHub Pages build and deployment runs passed; no interaction-test or runtime-benchmark suite is published.
+Case study: https://www.abubeker-ahmedel.com/case-studies/react-webos.html
+
+CERTIFICATES
+AWS - Cursa
+Microsoft Azure Fundamentals (AZ-900) - Cursa
+Operating Systems and Systems Programming - Cursa
+Complete MongoDB Tutorial - Cursa
+Java Intermediate - SoloLearn
+Introduction to C++ - SoloLearn
+Copywriting - Cursa
+Photoshop Full Course - Cursa
+Supply Chain Management - Cursa
+Mobile Phone Repair - Cursa
+Call Center Customer Service - Cursa
+Unity Game Development - Cursa
+Kali Linux: Beginner to Advanced - Cursa
+Flutter 3.0 Masterclass - Cursa
+Power BI Full Course - Cursa
+WordPress: Basic to Advanced - Cursa
+Godot 4.3 2D Farming Game Tutorial - Cursa
+Generative AI in Practice - SoloLearn
+Data Analytics with AI - SoloLearn
+AI in Data Analysis - SoloLearn
+Ethical AI Foundation - SoloLearn
+Prompt Engineering - SoloLearn
+AI-Powered A/B Testing - SoloLearn
+Introduction to LLMs - SoloLearn
+Machine Learning for Beginners - SoloLearn
+Research with AI - SoloLearn
+Full certificate list with verification links: https://www.abubeker-ahmedel.com/certificates.txt
+
+AVAILABILITY
+Available for junior full-stack, mobile and internship opportunities.
+Contact: https://www.abubeker-ahmedel.com/contact.html

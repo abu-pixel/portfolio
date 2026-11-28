@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# AI-readable site index: https://www.abubeker-ahmedel.com/llms.txt
+# ATS-friendly plain-text resume: https://www.abubeker-ahmedel.com/resume.txt
+
 Sitemap: https://www.abubeker-ahmedel.com/sitemap.xml

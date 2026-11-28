@@ -1,0 +1,138 @@
+# Abubeker Ahmedel - full site text for AI systems
+
+Canonical domain: https://www.abubeker-ahmedel.com/
+This file is a static text summary of the public portfolio. The linked HTML pages are the canonical sources. All content is public and readable without login, registration or JavaScript execution.
+
+## 1. Identity and contact
+
+Name: Abubeker Ahmedel
+Role: Junior Full-Stack Developer
+Location: Addis Ababa, Ethiopia
+Email: abubeker.ahmedel.dev@gmail.com
+Phone: +251 983 074 598
+GitHub: https://github.com/abu-pixel
+LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
+Portfolio: https://www.abubeker-ahmedel.com/
+CV page: https://www.abubeker-ahmedel.com/cv.html
+Plain-text resume: https://www.abubeker-ahmedel.com/resume.txt
+Contact page: https://www.abubeker-ahmedel.com/contact.html
+
+Professional summary: Junior full-stack developer who takes problems from rough idea to working product across web, Android and backend. Focused on correct data, clear interfaces and typed APIs. Computer Science student at St. Mary's University in Addis Ababa. Open to junior roles and internships, including remote teams.
+
+Engineering philosophy: correct before clever, privacy as a feature, types as documentation, and shipping small focused releases before broadening scope.
+
+## 2. Education
+
+Computer Science - St. Mary's University, Addis Ababa, Ethiopia, current studies. Coursework and self-directed projects across programming, databases, operating systems and web development.
+
+## 3. Technical skills
+
+Languages: JavaScript, TypeScript, Python, Kotlin, Java, C++, PHP, SQL
+Frontend: React, React Native, Expo, Next.js, Tailwind CSS, Alpine.js, HTML, CSS
+Backend: Node.js, Express.js, Flask, REST APIs
+Data: PostgreSQL, MySQL, MongoDB, SQLite, Room, Drizzle ORM
+Mobile: Kotlin, Android, Jetpack Compose, React Native, Expo, Flutter
+Tools and cloud: Figma, Docker, Git, GitHub, Postman, Power BI, Clerk, Vercel, Render, Netlify, AWS, Microsoft Azure
+
+## 4. Selected work
+
+### Ledgerly (Ledger Intelligence)
+URL: https://www.abubeker-ahmedel.com/case-studies/ledgerly.html
+Source: https://github.com/abu-pixel/Ledger-Intelligence
+Live demo: https://ledger-intelligence-sigma.vercel.app
+Stack: React Native, Expo, TypeScript, Express, Clerk, PostgreSQL, Drizzle ORM, Pollinations AI.
+Summary: Mobile bookkeeping and cash-flow app for small business owners. It covers transactions, invoices, reports and AI guidance. Authentication uses Clerk and the server verifies the session before ledger data is accessed. The AI provider key stays on the Express server, and only aggregate figures are sent to the assistant; client names and receipt images are not sent.
+Architecture: Expo client, Express server, monorepo with shared types and a server-side proxy.
+Testing and CI: The workflow "CI - typecheck, build & performance" runs on pushes to main, pull requests and manual dispatch with pnpm 12.11.2 and Node 24. It performs timed typecheck and build, boots the API server on port 8137, polls /api/healthz, samples 20 requests and checks /api/ai/status. Run #4 at commit e4534c9 passed in 1m1s. Typecheck took 5928 ms, the full build 26608 ms, health returned ok with {"status":"ok"}, AI status returned HTTP 200 with {"available":true}. Earlier attempts failed during pnpm and lightningcss setup; those failures were fixed in #4. No unit-suite pass count or coverage percentage is published.
+Performance: Health latency over 20 requests averaged 1 ms, minimum 1 ms and maximum 4 ms. Artifact sizes were 5.1 MB for artifacts/api-server/dist (10 files), 288 KB for artifacts/mockup-sandbox/dist (3 files), and 15 MB for artifacts/mobile/static-build (79 files). The build-and-metrics artifact was 2 MB.
+
+### CashPilot
+URL: https://www.abubeker-ahmedel.com/case-studies/cashpilot.html
+Source: https://github.com/abu-pixel/CashPilot
+APK: https://www.abubeker-ahmedel.com/CashPilot.apk
+Stack: Kotlin, Jetpack Compose, Material 3, Room, MVVM, Kotlin Flows, Repository pattern.
+Summary: Native Android business management app connecting cash flow, inventory and customer debt. A credit sale updates the sale, the debt and the stock inside one Room transaction. Records are local; there is no login or remote API in the described scope.
+Testing: The "Android tests and performance" workflow runs testDebugUnitTest, compiles instrumented database and Compose tests with compileDebugAndroidTestKotlin, publishes a summary and uploads reports. Run b98c2f4 on master passed in 3m45s, job 3m42s. 16 unit tests passed with 0 failures, 0 errors and 0 skipped in 12.97s: BusinessRepositoryTest 6 tests / 10.08s, ConvertersTest 2 / 0.00s, PerformanceBenchmarkTest 1 / 2.89s, BusinessAnalyticsTest 7 / 0.00s. Instrumented tests were compiled but not executed on a device.
+Performance: Measured on Linux with Java 21.0.13.1 and 512 MB max heap. analytics.insights: 40 iterations, 0.70 ms average, 2.13 ms p95, 1,420 ops/sec. analytics.healthScore: 100 iterations, 0.03 ms average, 0.04 ms p95, 38,051 ops/sec. database.insertTransactions: 5 iterations, 202.80 ms average, 310.86 ms p95, 2,465 ops/sec. database.debtUpdates: 5 iterations, 107.79 ms average, 112.72 ms p95, 4,639 ops/sec. database.readAggregates: 30 iterations, 15.66 ms average, 40.01 ms p95, 64 ops/sec. Full report artifact: 13.8 KB.
+
+### Orbit Rush
+URL: https://www.abubeker-ahmedel.com/case-studies/orbit-rush.html
+Source: https://github.com/abu-pixel/orbit-rush
+Live demo: https://orbit-rush-fawn.vercel.app
+Stack: TypeScript, React 19, Expo, React Native, Express, Drizzle ORM, OpenAPI, Orval, Tailwind CSS.
+Summary: Arcade dodge-and-collect game with physics, combo multipliers, tactical dashes and unlockable trails. One shared engine runs in the browser and in a native mobile app. Orval generates React Query hooks and Zod schemas from the OpenAPI document.
+Testing: The CI workflow runs on pushes and pull requests, installs from a frozen pnpm lockfile, typechecks, runs test:ci and benchmarks, publishes a summary and uploads reports. Run 273658c on main passed in 33s, job 30s. Summary: 18 tests, 18 passed, 0 failed.
+Performance: Node v24.22.3 on linux/x64. Web engine: 5.153 microseconds per frame median, 8.359 p95, 194,076 updates/sec. Mobile engine: 4.052 microseconds per frame median, 28.69 p95, 246,805 updates/sec. The mobile engine has the lower median but a wider p95 tail. Full report artifact: 1.39 KB.
+
+### SecureVault
+URL: https://www.abubeker-ahmedel.com/case-studies/securevault.html
+Source: https://github.com/abu-pixel/SecureVault
+APK: https://www.abubeker-ahmedel.com/SecureVault%20Elite.apk
+Google Play: https://play.google.com/store/apps/details?id=com.Abubeker.securevault
+Stack: Kotlin, Jetpack Compose, Room, AndroidX Security, MVVM.
+Summary: Offline Android password manager with AES-256 encrypted local storage, Android Keystore key material and biometric unlock. The manifest has no internet permission, so the app has no network path out of the device. There is no account system and no independent security audit.
+Testing: A two-job "Tests & Performance" workflow exists in .github/workflows/tests-and-performance.yml. It runs on pushes, pull requests and manual dispatch. One job is designed for testDebugUnitTest, lint, assembleDebug and Gradle profiling. The other runs connectedDebugAndroidTest on an x86_64 Pixel 6 API 35 emulator and pulls crypto benchmarks from the app's external files directory. The published run at commit 3a98240 on master failed after 25s. Both jobs reported "No test result XML files found" and "No benchmark files found", and uploads found no test, lint, report or performance directories. No pass rate is claimed.
+Performance: No application performance figures are published from that run. The workflow is designed to collect Gradle profile timings and crypto-benchmarks.json from /sdcard/Android/data/com.Abubeker.securevault/files/benchmarks/, but the published run produced no benchmark files or performance artifacts. Recorded CI durations were 25s total, with listed job times of 11s and 21s for unit/lint and 14s and 17s for the emulator job across attempts. Those are workflow durations, not app performance.
+
+### React WebOS
+URL: https://www.abubeker-ahmedel.com/case-studies/react-webos.html
+Source: https://github.com/abu-pixel/react-webos
+Live demo: https://react-webos-seven.vercel.app/
+Stack: React, JavaScript, CSS.
+Summary: Browser desktop environment with draggable windows, a dock and small apps. Each window owns its state while the desktop manages focus and layering. No backend, accounts or user data collection.
+Testing: Published checks are GitHub Pages build and deployment runs. Run #7 at commit d993a09 on main succeeded in 38s. Earlier successful runs #6 and #5 took 2m19s and 33s. No automated interaction test suite or Lighthouse job is published.
+Performance: The available measured numbers are CI build-and-deploy durations: 38s for #7, 2m19s for #6 and 33s for #5. These are deployment times, not runtime performance. No Lighthouse scores, frame timing or interaction latency figures are published.
+
+## 5. Interface design studies
+
+- Apex: analytics dashboard using a bento-grid layout and a Flow State view that hides non-essential widgets. Figma: https://www.figma.com/design/DGtbUMxYyKmLAZXpctfDSf/apex
+- Command Center: monitoring interface with a dark palette and high-contrast accents. Figma: https://www.figma.com/community/file/1669386111745948394
+- Bank X: mobile-first banking interface with a simple home screen, one-tap account access and contrast-checked colors. Figma: https://www.figma.com/community/file/1670026652842109163
+
+## 6. Verified certificates
+
+Most relevant:
+- AWS - Cursa - https://cursa.app/en/my-certificate/certe43332a6f12d57506a9f131f3af1b230
+- Microsoft Azure Fundamentals (AZ-900) - Cursa - https://cursa.app/en/my-certificate/cert8c2d5a089b684789426fbd6758d75f69
+- Operating Systems & Systems Programming - Cursa - https://cursa.app/en/my-certificate/certaf68eb6d5d9cf0aeacbb709c04f9dfd7
+- Complete MongoDB Tutorial - Cursa - https://cursa.app/en/my-certificate/certf2025318a03c36686bf1e00ea306ef64
+- Java Intermediate - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-KSZLZ65W/image/png?t=639159123981254640
+- Introduction to C++ - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-WTJJGRZU/image/png?t=639159148717828710
+
+All certificates:
+- Copywriting - Cursa - https://cursa.app/en/my-certificate/certefeeefe951bce78c94859578e62c4cb3
+- Photoshop Full Course - Cursa - https://cursa.app/en/my-certificate/certbf9567add0eaa86be3ae54aaf81dead3
+- Supply Chain Management - Cursa - https://cursa.app/en/my-certificate/cert290aca559204b8995f417b70fd9079a9
+- Mobile Phone Repair - Cursa - https://cursa.app/en/my-certificate/certeb2cc46da0e410dba727b216ff78c374
+- Call Center Customer Service - Cursa - https://cursa.app/en/my-certificate/certed5b2308cc192a3ea753ccca2f14e86e
+- Unity Game Development - Cursa - https://cursa.app/en/my-certificate/cert4c0a5c059bd75e3a37617fff037a07b0
+- Kali Linux: Beginner to Advanced - Cursa - https://cursa.app/en/my-certificate/cert71db20d6e85cb30af13f1ad3dc30a448
+- Flutter 3.0 Masterclass - Cursa - https://cursa.app/en/my-certificate/certe75fed4945204774605a81dc7be49985
+- Power BI Full Course - Cursa - https://cursa.app/en/my-certificate/certbcde8658314a742325e78ea71b60c402
+- WordPress: Basic to Advanced - Cursa - https://cursa.app/en/my-certificate/cert0b1807bdd39eb411b8cf966040dc1f8b
+- Godot 4.3 2D Farming Game Tutorial - Cursa - https://cursa.app/en/my-certificate/cert690d60fbdcce9083938d1a3534038f46
+- Generative AI in Practice - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-VSIHCWNE/image/png?t=638857558880578750
+- Data Analytics with AI - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-LLJ09CPB/image/png?t=638857607290247740
+- AI in Data Analysis - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-VMY8WJIU/image/png?t=638859235383502650
+- Ethical AI Foundation - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-X37FRQOK/image/png?t=638875139147878210
+- Prompt Engineering - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-YPJABPLK/image/png?t=638884669206338610
+- AI-Powered A/B Testing - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-I12MVX8I/image/png?t=638885402776124520
+- Introduction to LLMs - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-WSTEK300/image/png?t=638886856120284580
+- Machine Learning for Beginners - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-SUAUAFME/image/png?t=638888644299273520
+- Research with AI - SoloLearn - https://api2.sololearn.com/v2/certificates/CC-DJOX2I8T/image/png?t=638891228138220140
+
+Static certificate page: https://www.abubeker-ahmedel.com/certificates.html
+Plain-text certificate list: https://www.abubeker-ahmedel.com/certificates.txt
+
+## 7. Availability
+
+Available for junior full-stack, mobile and internship opportunities, including remote teams. All project demos open without sign-up.
+Contact: https://www.abubeker-ahmedel.com/contact.html
+
+## 8. Crawling notes
+
+- Sitemap: https://www.abubeker-ahmedel.com/sitemap.xml
+- Robots: https://www.abubeker-ahmedel.com/robots.txt
+- Short AI index: https://www.abubeker-ahmedel.com/llms.txt
+- All pages are static files served over HTTPS under the canonical www domain.
+- Avoid guessing missing metrics: the case studies distinguish published results from unpublished ones.

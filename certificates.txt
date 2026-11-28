@@ -1,0 +1,83 @@
+VERIFIED CERTIFICATES - ABUBAKER AHMED EL
+Portfolio: https://www.abubeker-ahmedel.com/
+Static HTML version: https://www.abubeker-ahmedel.com/certificates.html
+
+MOST RELEVANT
+AWS - Cursa
+https://cursa.app/en/my-certificate/certe43332a6f12d57506a9f131f3af1b230
+
+Microsoft Azure Fundamentals (AZ-900) - Cursa
+https://cursa.app/en/my-certificate/cert8c2d5a089b684789426fbd6758d75f69
+
+Operating Systems & Systems Programming - Cursa
+https://cursa.app/en/my-certificate/certaf68eb6d5d9cf0aeacbb709c04f9dfd7
+
+Complete MongoDB Tutorial - Cursa
+https://cursa.app/en/my-certificate/certf2025318a03c36686bf1e00ea306ef64
+
+Java Intermediate - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-KSZLZ65W/image/png?t=639159123981254640
+
+Introduction to C++ - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-WTJJGRZU/image/png?t=639159148717828710
+
+ALL CERTIFICATES
+Copywriting - Cursa
+https://cursa.app/en/my-certificate/certefeeefe951bce78c94859578e62c4cb3
+
+Photoshop Full Course - Cursa
+https://cursa.app/en/my-certificate/certbf9567add0eaa86be3ae54aaf81dead3
+
+Supply Chain Management - Cursa
+https://cursa.app/en/my-certificate/cert290aca559204b8995f417b70fd9079a9
+
+Mobile Phone Repair - Cursa
+https://cursa.app/en/my-certificate/certeb2cc46da0e410dba727b216ff78c374
+
+Call Center Customer Service - Cursa
+https://cursa.app/en/my-certificate/certed5b2308cc192a3ea753ccca2f14e86e
+
+Unity Game Development - Cursa
+https://cursa.app/en/my-certificate/cert4c0a5c059bd75e3a37617fff037a07b0
+
+Kali Linux: Beginner to Advanced - Cursa
+https://cursa.app/en/my-certificate/cert71db20d6e85cb30af13f1ad3dc30a448
+
+Flutter 3.0 Masterclass - Cursa
+https://cursa.app/en/my-certificate/certe75fed4945204774605a81dc7be49985
+
+Power BI Full Course - Cursa
+https://cursa.app/en/my-certificate/certbcde8658314a742325e78ea71b60c402
+
+WordPress - Basic to Advanced - Cursa
+https://cursa.app/en/my-certificate/cert0b1807bdd39eb411b8cf966040dc1f8b
+
+Godot 4.3 2D Farming Game Tutorial - Cursa
+https://cursa.app/en/my-certificate/cert690d60fbdcce9083938d1a3534038f46
+
+Generative AI in Practice - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-VSIHCWNE/image/png?t=638857558880578750
+
+Data Analytics with AI - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-LLJ09CPB/image/png?t=638857607290247740
+
+AI in Data Analysis - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-VMY8WJIU/image/png?t=638859235383502650
+
+Ethical AI Foundation - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-X37FRQOK/image/png?t=638875139147878210
+
+Prompt Engineering - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-YPJABPLK/image/png?t=638884669206338610
+
+AI-Powered A/B Testing - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-I12MVX8I/image/png?t=638885402776124520
+
+Introduction to LLMs - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-WSTEK300/image/png?t=638886856120284580
+
+Machine Learning for Beginners - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-SUAUAFME/image/png?t=638888644299273520
+
+Research with AI - SoloLearn
+https://api2.sololearn.com/v2/certificates/CC-DJOX2I8T/image/png?t=638891228138220140

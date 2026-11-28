@@ -1,0 +1,45 @@
+# Abubeker Ahmedel - portfolio
+
+> Canonical domain: https://www.abubeker-ahmedel.com/
+> Static, server-rendered portfolio for Abubeker Ahmedel, a junior full-stack developer working across web, Android and backend. Every page listed here is public HTML or plain text; there is no login, paywall or JavaScript-only content required to read the information.
+
+## Identity
+
+- Name: Abubeker Ahmedel
+- Role: Junior Full-Stack Developer
+- Location: Addis Ababa, Ethiopia
+- Email: abubeker.ahmedel.dev@gmail.com
+- GitHub: https://github.com/abu-pixel
+- LinkedIn: https://www.linkedin.com/in/abubeker-ahmedel-074bb3330
+
+## Main pages
+
+- [Home](https://www.abubeker-ahmedel.com/) - positioning, selected work, interface design studies, technical skills, certificate section and contact links.
+- [CV](https://www.abubeker-ahmedel.com/cv.html) - print-ready curriculum vitae with summary, education, projects, skills, certificates and availability.
+- [Plain-text resume](https://www.abubeker-ahmedel.com/resume.txt) - ATS-friendly plain-text version of the CV.
+- [Contact](https://www.abubeker-ahmedel.com/contact.html) - direct email, phone, GitHub and LinkedIn links.
+- [Privacy](https://www.abubeker-ahmedel.com/privacy.html) - privacy information for the portfolio.
+
+## Case studies
+
+- [Ledgerly / Ledger Intelligence](https://www.abubeker-ahmedel.com/case-studies/ledgerly.html) - React Native, Expo, TypeScript, Express, Clerk, PostgreSQL and Drizzle ORM bookkeeping app with server-side AI privacy proxy.
+- [CashPilot](https://www.abubeker-ahmedel.com/case-studies/cashpilot.html) - native Kotlin and Room Android ledger with atomic credit-sale transactions, automated unit tests and JVM benchmarks.
+- [Orbit Rush](https://www.abubeker-ahmedel.com/case-studies/orbit-rush.html) - TypeScript arcade game with one shared engine for web and mobile, generated API contracts, automated tests and engine benchmarks.
+- [SecureVault](https://www.abubeker-ahmedel.com/case-studies/securevault.html) - offline Android password manager with AES-256 encrypted storage, Android Keystore, biometric unlock and no internet permission.
+- [React WebOS](https://www.abubeker-ahmedel.com/case-studies/react-webos.html) - browser desktop environment with draggable windows, focus and layering in React state.
+
+## Machine-readable records
+
+- [llms-full.txt](https://www.abubeker-ahmedel.com/llms-full.txt) - detailed text summary of the whole site, including projects and verification links.
+- [certificates.html](https://www.abubeker-ahmedel.com/certificates.html) - static HTML index of all verified certificates.
+- [certificates.txt](https://www.abubeker-ahmedel.com/certificates.txt) - plain-text certificate index with issuer verification URLs.
+- [sitemap.xml](https://www.abubeker-ahmedel.com/sitemap.xml) - complete URL list for crawlers.
+- [robots.txt](https://www.abubeker-ahmedel.com/robots.txt) - crawl policy allowing public pages.
+
+## Notes for AI clients
+
+- Treat the canonical `www` URLs above as authoritative.
+- The HTML pages contain visible text and structured data; no account, script execution or special header is required.
+- For recruiting or ATS use, prefer resume.txt and certificates.txt.
+- For broad site questions, read llms.txt first, then llms-full.txt or the linked case studies.
+- Do not infer unpublished metrics. Each case study states exactly which test and performance results are published.
