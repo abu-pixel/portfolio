@@ -184,19 +184,18 @@
       </section>
 
       <section class="case-section" aria-labelledby="s12"><h2 id="s12"><span>12</span>Testing methodology and results</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          <strong>Test results not published</strong>
-          <p>I have not published an automated test suite or a test report for this project, so there are no pass rates or coverage numbers to quote. Check the repository for the current state of any test setup.</p>
-        </div>
+        <p>The <strong>CI - typecheck, build &amp; performance</strong> workflow runs on pushes to <code>main</code>, pull requests and manual dispatch with pnpm 12.11.2 and Node 24. It runs a timed typecheck and full build, starts the built API server on port 8137, polls <code>/api/healthz</code>, samples 20 requests for latency and checks <code>/api/ai/status</code>. A generated report is appended to the job summary and uploaded with the build outputs.</p>
+        <p>The latest run, #4 at commit <code>e4534c9</code>, passed in 1m1s with the job taking 58s. Typecheck finished in 5928 ms, the full build in 26608 ms, the health check returned <code>ok</code> with <code>{"status":"ok"}</code> and the AI status endpoint returned HTTP 200 with <code>{"available":true}</code>. Three earlier attempts failed while getting pnpm and the Windows-only lightningcss binary sorted out; #4 is the passing result published here. This is a build and smoke-test signal, not a unit-suite pass count, so no coverage percentage is claimed.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s13"><h2 id="s13"><span>13</span>Performance measurements</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 15l4-5 3 3 5-7"/></svg>
-          <strong>No measured numbers yet</strong>
-          <p>I have not run a formal load test or a Lighthouse pass on this app and I am not publishing invented figures. This slot is for real measurements when they are taken.</p>
-        </div>
+        <p>Performance data comes from the same passing run. The health endpoint was sampled 20 times against the built server: average 1 ms, minimum 1 ms and maximum 4 ms. The AI status check returned HTTP 200 with <code>{"available":true}</code>.</p>
+        <ul>
+          <li><strong>api-server/dist</strong> — 10 files, 5.1 MB.</li>
+          <li><strong>mockup-sandbox/dist</strong> — 3 files, 288 KB.</li>
+          <li><strong>mobile/static-build</strong> — 79 files, 15 MB.</li>
+        </ul>
+        <p>Typecheck took 5928 ms and the full build 26608 ms. The report and build outputs were uploaded as a 2 MB <code>build-and-metrics</code> artifact. These are CI build and health-endpoint measurements, not a Lighthouse pass or a load test of user-facing workflows.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s14"><h2 id="s14"><span>14</span>Security considerations</h2>
@@ -226,7 +225,7 @@
           <li>Depends on a free third-party AI API whose limits I do not control.</li>
           <li>No offline capture and later sync; the app expects a connection.</li>
           <li>No multi-user books, roles or granular permissions.</li>
-          <li>No published schema document, API reference or performance/test report.</li>
+          <li>No published schema document or API reference; CI covers typecheck, build and smoke checks rather than a unit test suite.</li>
           <li>Accounts are managed by Clerk, so using the app requires an account even though viewing this case study does not.</li>
         </ul>
       </section>
@@ -235,14 +234,14 @@
         <p>These are ideas I would explore, not commitments or funded work:</p>
         <ul>
           <li>Publish the schema and a short endpoint reference alongside the repository.</li>
-          <li>Add an automated test suite for the ledger and invoice flows.</li>
+          <li>Add an automated test suite for the ledger and invoice flows alongside the existing CI smoke checks.</li>
           <li>Support offline transaction capture with reconciliation on reconnect.</li>
           <li>Add shared books with explicit permissions and an audit trail.</li>
         </ul>
       </section>
 
       <section class="case-section" aria-labelledby="s19"><h2 id="s19"><span>19</span>Outcomes and measurable results</h2>
-        <p>The live demo is reachable. The outcome I can describe precisely is a working end-to-end flow: sign in, log a transaction, raise an invoice, read a cash-flow report and ask an assistant a question without sending a receipt or a customer name anywhere. I have not measured business impact, response times or conversion, so I am not claiming any.</p>
+        <p>The live demo is reachable. The outcome I can describe precisely is a working end-to-end flow: sign in, log a transaction, raise an invoice, read a cash-flow report and ask an assistant a question without sending a receipt or a customer name anywhere. I have not measured business impact or conversion, and the published latency figures are for the health endpoint rather than user-facing workflows.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s20"><h2 id="s20"><span>20</span>My contribution</h2>

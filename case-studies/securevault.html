@@ -182,19 +182,14 @@
       </section>
 
       <section class="case-section" aria-labelledby="s12"><h2 id="s12"><span>12</span>Testing methodology and results</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          <strong>Test results not published</strong>
-          <p>No security audit or automated test report is published for SecureVault. Encryption and Keystore use are design facts; they are not a substitute for a published review, and I am not claiming one.</p>
-        </div>
+        <p>A two-job <strong>Tests &amp; Performance</strong> workflow is configured in <code>.github/workflows/tests-and-performance.yml</code> and runs on pushes, pull requests and manual dispatch. The first job is designed to run <code>testDebugUnitTest</code>, lint and <code>assembleDebug</code> with a Gradle profile; the second runs <code>connectedDebugAndroidTest</code> on an x86_64 Pixel 6 API 35 emulator and pulls crypto benchmarks from the app's external files directory. A Python reporter writes the job summary and uploads the reports as artifacts.</p>
+        <p>The published run at commit <code>3a98240</code> on <code>master</code> failed after 25s. Both jobs reported <strong>No test result XML files found</strong> and <strong>No benchmark files found</strong>, and the upload steps found no test, lint, report or performance directories. I am publishing that result instead of claiming a pass rate: the automation exists, but this run did not produce a usable test or benchmark report.</p>
+        <p>The annotations also point to follow-up work: actions pinned to Node 20 are being forced onto Node 24, <code>actions/setup-java@v4</code> is deprecated, and the instrumented job needs the Android platform and report paths in place before artifacts can be collected.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s13"><h2 id="s13"><span>13</span>Performance measurements</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 15l4-5 3 3 5-7"/></svg>
-          <strong>No measured numbers yet</strong>
-          <p>I have not benchmarked unlock time or database operations on target devices. There are no numbers to show here yet.</p>
-        </div>
+        <p>No application performance figures are published from this run. The workflow is designed to collect Gradle profile timings from the JVM job and <code>crypto-benchmarks.json</code> from <code>/sdcard/Android/data/com.Abubeker.securevault/files/benchmarks/</code> after the instrumented tests. In the run at <code>3a98240</code>, both jobs reported no benchmark files and no performance artifacts, so there is no crypto timing to quote.</p>
+        <p>The recorded CI time for that failed run was 25s in total, with job timings listed as 11s and 21s for the unit/lint job and 14s and 17s for the emulator job across attempts. Those are workflow durations, not app performance measurements.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s14"><h2 id="s14"><span>14</span>Security considerations</h2>
@@ -224,7 +219,7 @@
         <ul>
           <li>Android only, with no browser demo.</li>
           <li>No sync, cloud backup or account recovery.</li>
-          <li>No published audit or test report.</li>
+          <li>No independent security audit; the published CI test run failed before producing reports.</li>
           <li>Biometric unlock depends on the device supporting it.</li>
           <li>Local-only means a lost device can mean lost credentials.</li>
         </ul>
@@ -235,7 +230,8 @@
         <ul>
           <li>Publish an independent security review before describing the app as audited.</li>
           <li>Add a documented, user-controlled encrypted backup and restore path.</li>
-          <li>Add automated tests around storage and unlock flows.</li>
+          <li>Fix the failing CI run so it publishes test XML, lint and crypto benchmark artifacts.</li>
+          <li>Add focused tests around storage and unlock flows.</li>
         </ul>
       </section>
 

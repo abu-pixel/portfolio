@@ -182,19 +182,13 @@
       </section>
 
       <section class="case-section" aria-labelledby="s12"><h2 id="s12"><span>12</span>Testing methodology and results</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          <strong>Test results not published</strong>
-          <p>No automated interaction test report is published. Drag and focus behaviour is the part I would test first if I formalised this project, but I am not claiming a suite exists today.</p>
-        </div>
+        <p>The published checks for this project are GitHub Pages build and deployment runs. The latest, #7 at commit <code>d993a09</code> on <code>main</code>, completed successfully in 38s. Earlier successful runs #6 and #5 took 2m19s and 33s. Each run builds the site and deploys it to Pages, so the live demo is validated from a clean checkout.</p>
+        <p>There is no automated interaction test suite or Lighthouse job in the published workflow, so I am not quoting a test count for drag, focus or stacking. Those behaviours are covered by the walkthrough and live demo, not by a published test report.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s13"><h2 id="s13"><span>13</span>Performance measurements</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 15l4-5 3 3 5-7"/></svg>
-          <strong>No measured numbers yet</strong>
-          <p>I have not published Lighthouse results or interaction latency figures for this demo, so none are shown.</p>
-        </div>
+        <p>The measured numbers available are CI build-and-deploy durations: 38s for run #7, 2m19s for #6 and 33s for #5. They show the time from trigger to a deployed Pages build, not app runtime performance.</p>
+        <p>I have not published Lighthouse scores, frame timing or interaction-latency figures for the demo, so no browser performance numbers are claimed here.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s14"><h2 id="s14"><span>14</span>Security considerations</h2>
@@ -218,7 +212,7 @@
         <ul>
           <li>No persistence of window layout.</li>
           <li>No server, API or accounts by design.</li>
-          <li>No published tests or performance measurements.</li>
+          <li>No automated interaction tests or browser runtime benchmarks; published CI data is limited to Pages build and deployment runs.</li>
           <li>Desktop-style interactions may not translate well to small touch screens.</li>
         </ul>
       </section>
@@ -234,7 +228,7 @@
       </section>
 
       <section class="case-section" aria-labelledby="s19"><h2 id="s19"><span>19</span>Outcomes and measurable results</h2>
-        <p>The demo plus walkthrough are public. The result I can verify is a working desktop metaphor with draggable windows, focus and layering implemented in React state. I have not measured engagement or performance, so no such numbers are claimed.</p>
+        <p>The demo plus walkthrough are public. The result I can verify is a working desktop metaphor with draggable windows, focus and layering implemented in React state. I have not measured engagement or browser runtime performance, so no such numbers are claimed.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s20"><h2 id="s20"><span>20</span>My contribution</h2>

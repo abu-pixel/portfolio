@@ -181,19 +181,20 @@
       </section>
 
       <section class="case-section" aria-labelledby="s12"><h2 id="s12"><span>12</span>Testing methodology and results</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          <strong>Test results not published</strong>
-          <p>No automated test report or coverage figure is published for CashPilot. The transaction behaviour is the part I would prioritise testing, but I am not claiming a suite exists until it does.</p>
-        </div>
+        <p>Automated verification runs in the <strong>Android tests and performance</strong> workflow on pushes, pull requests and manual dispatch. The job runs <code>testDebugUnitTest</code>, compiles the instrumented database and Compose tests with <code>compileDebugAndroidTestKotlin</code>, publishes a generated summary and uploads the XML and HTML reports as an artifact.</p>
+        <p>The published run at commit <code>b98c2f4</code> on <code>master</code> passed in 3m45s, with the job taking 3m42s. All <strong>16 unit tests passed</strong> with 0 failures, 0 errors and 0 skipped in 12.97s: <code>BusinessRepositoryTest</code> 6 tests / 10.08s, <code>ConvertersTest</code> 2 / 0.00s, <code>PerformanceBenchmarkTest</code> 1 / 2.89s and <code>BusinessAnalyticsTest</code> 7 / 0.00s. The instrumented tests were compiled in this job, not executed on a device.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s13"><h2 id="s13"><span>13</span>Performance measurements</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 15l4-5 3 3 5-7"/></svg>
-          <strong>No measured numbers yet</strong>
-          <p>I have not benchmarked database writes or measured app startup, and I will not publish estimated figures. This slot is reserved for real measurements.</p>
-        </div>
+        <p>Benchmarks were measured on Linux with Java 21.0.13.1 and a 512 MB maximum heap. These are recorded runs from the same CI job, not estimates.</p>
+        <ul>
+          <li><strong>analytics.insights</strong> — 40 iterations, 0.70 ms average, 2.13 ms p95, 1,420 ops/sec.</li>
+          <li><strong>analytics.healthScore</strong> — 100 iterations, 0.03 ms average, 0.04 ms p95, 38,051 ops/sec.</li>
+          <li><strong>database.insertTransactions</strong> — 5 iterations, 202.80 ms average, 310.86 ms p95, 2,465 ops/sec.</li>
+          <li><strong>database.debtUpdates</strong> — 5 iterations, 107.79 ms average, 112.72 ms p95, 4,639 ops/sec.</li>
+          <li><strong>database.readAggregates</strong> — 30 iterations, 15.66 ms average, 40.01 ms p95, 64 ops/sec.</li>
+        </ul>
+        <p>The slowest case is <code>database.insertTransactions</code> at 202.80 ms average and 310.86 ms p95; <code>analytics.healthScore</code> is the fastest at 0.03 ms average. Full details are in the 13.8 KB <code>test-and-performance-reports</code> artifact.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s14"><h2 id="s14"><span>14</span>Security considerations</h2>
@@ -218,7 +219,7 @@
           <li>Android only, with no live web demo.</li>
           <li>No login, multi-user support or permission model.</li>
           <li>No described sync, backup or export flow beyond local storage.</li>
-          <li>No published test report or performance measurements.</li>
+          <li>No device execution of instrumented tests in CI; they are compiled only.</li>
         </ul>
       </section>
 
@@ -226,9 +227,9 @@
         <p>Possible directions, not commitments:</p>
         <ul>
           <li>Publish the Room schema and document the DAO surface.</li>
-          <li>Add focused tests around the credit-sale transaction.</li>
+          <li>Extend the repository tests around credit-sale edge cases.</li>
           <li>Add an explicit export or backup path so local data is not the only copy.</li>
-          <li>Measure Room write time and app startup on a real device.</li>
+          <li>Measure Room write time and app startup on a real device, beyond the JVM benchmarks.</li>
         </ul>
       </section>
 

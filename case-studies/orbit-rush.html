@@ -182,19 +182,17 @@
       </section>
 
       <section class="case-section" aria-labelledby="s12"><h2 id="s12"><span>12</span>Testing methodology and results</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-          <strong>Test results not published</strong>
-          <p>There is no published test report or coverage number for Orbit Rush. Code generation and strict types reduce one class of bug, but that is not the same as a test suite and I am not describing it as one.</p>
-        </div>
+        <p>The <strong>CI</strong> workflow runs on every push and pull request. It installs dependencies from the frozen pnpm lockfile, typechecks the workspace, runs <code>test:ci</code>, executes benchmarks with <code>BENCH_OUTPUT=reports/benchmark.json</code>, then appends a generated summary to the job summary and uploads the reports directory.</p>
+        <p>The published run at commit <code>273658c</code> on <code>main</code> passed in 33s, with the job taking 30s. The summary reports <strong>18 tests, 18 passed and 0 failed</strong>. The typecheck step also passed before the tests and benchmarks ran.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s13"><h2 id="s13"><span>13</span>Performance measurements</h2>
-        <div class="asset-slot">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 15l4-5 3 3 5-7"/></svg>
-          <strong>No measured numbers yet</strong>
-          <p>Frame rate and input latency matter for a game, but I have not recorded benchmark results and will not publish guessed figures. This slot is for real measurements from the web and mobile builds.</p>
-        </div>
+        <p>Benchmarks were recorded on Node v24.22.3, linux/x64. The shared engine is measured in microseconds per frame for both clients:</p>
+        <ul>
+          <li><strong>Web engine</strong> — 5.153 µs/frame median, 8.359 µs/frame p95, 194,076 updates/sec.</li>
+          <li><strong>Mobile engine</strong> — 4.052 µs/frame median, 28.69 µs/frame p95, 246,805 updates/sec.</li>
+        </ul>
+        <p>The mobile engine has the lower median but a wider tail, with a 28.69 µs p95 against 8.359 µs on web. The full 1.39 KB report is in the <code>test-and-performance-reports</code> artifact.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s14"><h2 id="s14"><span>14</span>Security considerations</h2>
@@ -221,8 +219,7 @@
 
       <section class="case-section" aria-labelledby="s17"><h2 id="s17"><span>17</span>Known limitations</h2>
         <ul>
-          <li>No published database schema, test report or performance measurements.</li>
-          </li>
+          <li>No published database schema or API reference; benchmarks cover the shared engine, not full client frame rate.</li>
           <li>No authentication or account features described.</li>
           <li>Clients depend on a code-generation step, so the OpenAPI document must stay current.</li>
         </ul>
@@ -232,14 +229,14 @@
         <p>Ideas I would consider, not promised features:</p>
         <ul>
           <li>Publish the schema and a rendered API reference from the OpenAPI document.</li>
-          <li>Record frame-rate and input-latency measurements on both client types.</li>
-          <li>Add automated tests for the shared engine's core rules.</li>
+          <li>Measure full client frame rate and input latency in addition to the engine benchmarks.</li>
+          <li>Expand the 18 automated tests to cover more shared-engine rules.</li>
           <li>Document the generated-client build step for new contributors.</li>
         </ul>
       </section>
 
       <section class="case-section" aria-labelledby="s19"><h2 id="s19"><span>19</span>Outcomes and measurable results</h2>
-        <p>The browser game is playable from a public link. The result I can describe without exaggeration is a single engine serving two very different clients with a generated API contract between them. I have not measured retention, session length or performance, so none of that is claimed.</p>
+        <p>The browser game is playable from a public link. The result I can describe without exaggeration is a single engine serving two very different clients with a generated API contract between them. I have not measured retention or session length, so none of that is claimed.</p>
       </section>
 
       <section class="case-section" aria-labelledby="s20"><h2 id="s20"><span>20</span>My contribution</h2>
